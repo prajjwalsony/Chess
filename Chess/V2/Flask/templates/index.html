@@ -1,0 +1,187 @@
+<html>
+
+<head>
+<meta charset="UTF-8"> 
+<title>Chessboard using Pure CSS and HTML</title>
+
+<style type="text/css">
+
+.black:hover{
+    background-color: #fade5d;
+    cursor: pointer;
+}
+
+.white:hover{
+    background-color: #fade5d;
+    cursor: pointer;
+}
+
+
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+</style>
+
+</head>
+
+<body>
+    <div class="chessboard">
+        <div class="white cell" data-cell-index="a1">{{a1}}</div>
+        <div class="black cell" data-cell-index="b1">{{b1}}</div>
+        <div class="white cell" data-cell-index="c1">{{c1}}</div>
+        <div class="black cell" data-cell-index="d1">{{d1}}</div>
+        <div class="white cell" data-cell-index="e1">{{e1}}</div>
+        <div class="black cell" data-cell-index="f1">{{f1}}</div>
+        <div class="white cell" data-cell-index="g1">{{g1}}</div>
+        <div class="black cell" data-cell-index="h1">{{h1}}</div>
+        <!-- 2nd row -->
+        <div class="black cell" data-cell-index="a2">{{a2}}</div>
+        <div class="white cell" data-cell-index="b2">{{b2}}</div>
+        <div class="black cell" data-cell-index="c2">{{c2}}</div>
+        <div class="white cell" data-cell-index="d2">{{d2}}</div>
+        <div class="black cell" data-cell-index="e2">{{e2}}</div>
+        <div class="white cell" data-cell-index="f2">{{f2}}</div>
+        <div class="black cell" data-cell-index="g2">{{g2}}</div>
+        <div class="white cell" data-cell-index="h2">{{h2}}</div>
+        <!-- 3rd row -->
+        <div class="white cell" data-cell-index="a3">{{a3}}</div>
+        <div class="black cell" data-cell-index="b3">{{b3}}</div>
+        <div class="white cell" data-cell-index="c3">{{c3}}</div>
+        <div class="black cell" data-cell-index="d3">{{d3}}</div>
+        <div class="white cell" data-cell-index="e3">{{e3}}</div>
+        <div class="black cell" data-cell-index="f3">{{f3}}</div>
+        <div class="white cell" data-cell-index="g3">{{g3}}</div>
+        <div class="black cell" data-cell-index="h3">{{h3}}</div>
+        <!-- 4th row -->
+        <div class="black cell" data-cell-index="a4">{{a4}}</div>
+        <div class="white cell" data-cell-index="b4">{{b4}}</div>
+        <div class="black cell" data-cell-index="c4">{{c4}}</div>
+        <div class="white cell" data-cell-index="d4">{{d4}}</div>
+        <div class="black cell" data-cell-index="e4">{{e4}}</div>
+        <div class="white cell" data-cell-index="f4">{{f4}}</div>
+        <div class="black cell" data-cell-index="g4">{{g4}}</div>
+        <div class="white cell" data-cell-index="h4">{{h4}}</div>
+        <!-- 5th row -->
+        <div class="white cell" data-cell-index="a5">{{a5}}</div>
+        <div class="black cell" data-cell-index="b5">{{b5}}</div>
+        <div class="white cell" data-cell-index="c5">{{c5}}</div>
+        <div class="black cell" data-cell-index="d5">{{d5}}</div>
+        <div class="white cell" data-cell-index="e5">{{e5}}</div>
+        <div class="black cell" data-cell-index="f5">{{f5}}</div>
+        <div class="white cell" data-cell-index="g5">{{g5}}</div>
+        <div class="black cell" data-cell-index="h5">{{h5}}</div>
+        <!-- 6th row -->
+        <div class="black cell" data-cell-index="a6">{{a6}}</div>
+        <div class="white cell" data-cell-index="b6">{{b6}}</div>
+        <div class="black cell" data-cell-index="c6">{{c6}}</div>
+        <div class="white cell" data-cell-index="d6">{{d6}}</div>
+        <div class="black cell" data-cell-index="e6">{{e6}}</div>
+        <div class="white cell" data-cell-index="f6">{{f6}}</div>
+        <div class="black cell" data-cell-index="g6">{{g6}}</div>
+        <div class="white cell" data-cell-index="h6">{{h6}}</div>
+        <!-- 7th row -->
+        <div class="white cell" data-cell-index="a7">{{a7}}</div>
+        <div class="black cell" data-cell-index="b7">{{b7}}</div>
+        <div class="white cell" data-cell-index="c7">{{c7}}</div>
+        <div class="black cell" data-cell-index="d7">{{d7}}</div>
+        <div class="white cell" data-cell-index="e7">{{e7}}</div>
+        <div class="black cell" data-cell-index="f7">{{f7}}</div>
+        <div class="white cell" data-cell-index="g7">{{g7}}</div>
+        <div class="black cell" data-cell-index="h7">{{h7}}</div>
+        <!-- 8th row -->
+        <div class="black cell" data-cell-index="a8">{{a8}}</div>
+        <div class="white cell" data-cell-index="b8">{{b8}}</div>
+        <div class="black cell" data-cell-index="c8">{{c8}}</div>
+        <div class="white cell" data-cell-index="d8">{{d8}}</div>
+        <div class="black cell" data-cell-index="e8">{{e8}}</div>
+        <div class="white cell" data-cell-index="f8">{{f8}}</div>
+        <div class="black cell" data-cell-index="g8">{{g8}}</div>
+        <div class="white cell" data-cell-index="h8">{{h8}}</div>
+    </div> 
+    
+
+<form action="/" method="post">
+    <textarea id="id" name="id" style="visibility: hidden;">1234</textarea>
+    <textarea id="start" name="start" style="visibility: hidden;">a2</textarea>
+    <textarea id="end" name="end" style="visibility: hidden;">a3</textarea>
+    <div style="display: inline-block; width: 200px;">{{turn}}</div><div style="display: inline-block; width: 200px;">{{message}}</div>
+    <button type="submit" id="submit_btn">SUBMIT</button>
+</form>
+
+<form action="/p" method="post">
+     <div id="possible_moves" style="visibility: hidden;">{{possible_moves}}</div>
+    <textarea id="posn" name="posn" style="visibility: hidden;"></textarea>
+    <textarea name="id" style="visibility: hidden;">1234</textarea>
+    <button type="submit" id="submit_btn2">SUBMIT</button>
+
+</form>
+</body>
+
+<script>
+    //ALL Tested
+
+    var cond=0, start_cell, end_cell, start_originalColor, end_orginalColor
+    console.log()
+    document.querySelectorAll(".cell").forEach(cell=>{cell.addEventListener("click", (event)=>{
+        if (cond==0){
+            start_cell=event.target
+            start_originalColor=start_cell.style.backgroundColor
+            start_cell.style.backgroundColor = "#F5FF86"
+            posn=start_cell.getAttribute('data-cell-index');
+            document.querySelector("#start").textContent=posn
+            document.querySelector("#posn").textContent=posn
+            cond=1
+            document.querySelector("#submit_btn2").click();
+        }
+        else if(cond==1){
+            start_cell.style.backgroundColor=start_originalColor
+            cond=0
+            let piece=start_cell.textContent
+            start_cell.textContent=""
+            event.target.textContent=piece
+            document.querySelector("#end").textContent=event.target.getAttribute('data-cell-index');
+            document.querySelector("#submit_btn").click();
+        }
+        console.log("Clicked: "+event.target.getAttribute("data-cell-index"))
+    })})
+
+    function onPageLoad() {
+            possible_moves=document.querySelector("#possible_moves").textContent
+            if (possible_moves!=="{{possible_moves}}"){
+                document.querySelector("#possible_moves").textContent="{{possible_moves}}"
+                possible_moves=eval(possible_moves)
+                document.querySelectorAll(".cell").forEach(cell=>{
+                    if (possible_moves.includes(cell.getAttribute("data-cell-index"))){
+                        cell.style.backgroundColor="#72FF5E"
+                    }
+                })
+            }
+        }
+        window.onload = onPageLoad;
+</script>
+
+</html>

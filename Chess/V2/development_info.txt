@@ -1,0 +1,12 @@
+Second Version
+Development Started on [Not Started]
+Development completed on [Not Ended]
+
+Features Added:
+1. Option to restart game
+2. User can create account id for their game and continue from where they stopped by using id
+
+Next Version Feature:
+1. Adding check mate feature
+2. Clicking on any piece will show its legal moves, by coloring boxes
+3. adding special moves like chasling, etc
