@@ -21,3 +21,5 @@ A two-player chess game web application with a focus on backend processing. The 
 ## Usage
 - Open `index.html` in a web browser.
 - Make chess moves and see updates rendered from the backend.
+
+## For more information chess>>ProjectOverview.pdf
