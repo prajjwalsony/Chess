@@ -23,3 +23,7 @@ A two-player chess game web application with a focus on backend processing. The 
 - Make chess moves and see updates rendered from the backend.
 
 ## For more information chess>>ProjectOverview.pdf
+
+## Download
+You can download the project as a zip file:
+[Download ZIP](https://github.com/prajjwalsony/Chess/archive/refs/heads/main.zip)
