@@ -19,10 +19,12 @@ A two-player chess game web application with a focus on backend processing. The 
 
 
 ## Usage
-- Open `index.html` in a web browser.
+- run `app.py`
+- Open `localhost:5000` in a web browser.
 - Make chess moves and see updates rendered from the backend.
 
-## For more information chess>>ProjectOverview.pdf
+## For more information 
+chess>>ProjectOverview.pdf or [Click Here](https://github.com/prajjwalsony/Chess/blob/main/Chess/ProjectOverview.pdf)
 
 ## Download
 You can download the project as a zip file:
